@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibe Coding 介紹</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #333; }
+        header { background: rgba(255,255,255,0.95); padding: 1rem 0; box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 100; }
+        nav { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0 2rem; }
+        .logo { font-size: 1.5rem; font-weight: bold; color: #667eea; }
+        .hero { height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; color: white; padding: 0 2rem; }
+        .hero h1 { font-size: 4rem; margin-bottom: 1rem; text-shadow: 0 4px 10px rgba(0,0,0,0.3); }
+        .hero p { font-size: 1.5rem; max-width: 800px; margin: 0 auto 2rem; }
+        .btn { display: inline-block; padding: 15px 40px; background: white; color: #667eea; font-weight: bold; text-decoration: none; border-radius: 50px; font-size: 1.2rem; transition: all 0.3s; }
+        .btn:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+        section { padding: 80px 20px; max-width: 1200px; margin: 0 auto; }
+        .section-title { text-align: center; font-size: 2.5rem; margin-bottom: 3rem; color: #333; }
+        .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        .card { background: white; border-radius: 15px; padding: 2rem; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s; }
+        .card:hover { transform: translateY(-10px); }
+        footer { background: #333; color: white; text-align: center; padding: 3rem 0; }
+        .features { background: white; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">VibeCode</div>
+            <div>
+                <a href="#about" style="margin: 0 1rem; color: #333; text-decoration: none;">關於</a>
+                <a href="#how" style="margin: 0 1rem; color: #333; text-decoration: none;">如何開始</a>
+                <a href="#examples" style="margin: 0 1rem; color: #333; text-decoration: none;">範例</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div>
+            <h1>什麼是 Vibe Coding?</h1>
+            <p>用自然語言與 AI 對話，忘掉傳統 coding，擁抱創意的流動。<br>由 Andrej Karpathy 提出的革命性開發方式。</p>
+            <a href="#about" class="btn">探索 Vibe Coding</a>
+        </div>
+    </section>
+
+    <section id="about" class="features">
+        <h2 class="section-title">Vibe Coding 的核心概念</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>💡 意圖驅動</h3>
+                <p>不再一行一行寫代碼，而是描述你想要的「感覺」或結果，讓 AI 來實現。</p>
+            </div>
+            <div class="card">
+                <h3>🚀 快速迭代</h3>
+                <p>接受 AI 生成的代碼，測試結果，不斷調整提示，直到完美。</p>
+            </div>
+            <div class="card">
+                <h3>🌟 無障礙</h3>
+                <p>即使沒有深厚程式背景，也能打造應用程式和原型。</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="how" style="background: #f8f9fa;">
+        <h2 class="section-title">如何開始 Vibe Coding</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>步驟 1: 選擇工具</h3>
+                <p>Cursor, GitHub Copilot, Claude, Windsurf 等 AI 編輯器。</p>
+            </div>
+            <div class="card">
+                <h3>步驟 2: 描述你的 vibe</h3>
+                <p>例如：「建立一個音樂播放器 App，具有暗黑模式和播放清單功能。」</p>
+            </div>
+            <div class="card">
+                <h3>步驟 3: 迭代與測試</h3>
+                <p>運行、反饋、調整提示。擁抱不完美，享受過程。</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="examples">
+        <h2 class="section-title">真實範例</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>週末專案</h3>
+                <p>用 AI 快速打造 MVP，測試想法。</p>
+            </div>
+            <div class="card">
+                <h3>原型開發</h3>
+                <p>從概念到可運行 demo 在幾小時內完成。</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Vibe Coding 介紹網站 | 擁抱 AI 時代的 coding 新方式</p>
+        <p>Built with Vibe Coding vibes ✨</p>
+    </footer>
+
+    <script>
+        console.log("Vibe Coding 網站已載入！");
+    </script>
+</body>
+</html>

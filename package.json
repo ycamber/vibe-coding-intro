@@ -1,0 +1,8 @@
+{
+  "name": "vibe-coding-intro",
+  "version": "1.0.0",
+  "description": "Vibe Coding introduction website",
+  "scripts": {
+    "start": "echo 'Open index.html in browser'"
+  }
+}
